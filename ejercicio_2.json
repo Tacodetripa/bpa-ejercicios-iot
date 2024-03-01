@@ -1,0 +1,55 @@
+[
+    {
+        "id": "33b3cec59ecd63a2",
+        "type": "mqtt in",
+        "z": "a0a546b7b4f2a470",
+        "name": "ej2/cpu",
+        "topic": "ej2/cpu",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "96ed8df5f7f9a8c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "7ca1a259380e75f3",
+                "3e5a9b5a750b6607"
+            ]
+        ]
+    },
+    {
+        "id": "96ed8df5f7f9a8c6",
+        "type": "mqtt-broker",
+        "name": "Server1",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "edm",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
